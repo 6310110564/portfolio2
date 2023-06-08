@@ -7,8 +7,12 @@ class Contact extends Component {
         return(
             <div className="condiv">
                 <h1 className="subtitle">Contact Me</h1>
-                <p className="p-contact">Email: aritsara.me2545@gmail.com</p>
-                <p className="p-contact">instagram: @pt.nutt</p>
+                <h4>Email</h4>
+                <p className="p-contact">aritsara.me2545@gmail.com</p>
+                <h4>instagram</h4>
+                <p className="p-contact">@pt.nutt</p>
+                <h4>github</h4>
+                <p className="p-contact">https://github.com/6310110564</p>
                 <Social />
             </div>
         );

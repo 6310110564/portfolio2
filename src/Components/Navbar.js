@@ -4,6 +4,7 @@ import { useRef } from "react";
 // import { FaBars, FaTimes } from "react-icons/fa";
 // import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
+import ReactTypingEffect from 'react-typing-effect'
 
 import './Navbar.css';
 
@@ -19,7 +20,7 @@ function Navbar(){
 	return (
         <header>
             <div className="nav-r">
-                <h3>PORTFOLIO</h3>
+            <h3>PORTFOLIO</h3>
             </div>
 		<nav ref={navRef}>
              

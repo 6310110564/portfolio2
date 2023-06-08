@@ -165,13 +165,16 @@
   }
   
   .skills ul{
-    font-size: 10px;
+    font-size: 9px;
     display: flex;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color:#000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     width: auto;
+    margin-bottom: 2.5rem;
   }
+
   .skills li {
     list-style: none;
     margin: 10px;
@@ -179,14 +182,15 @@
   
   .p-contact {
     padding: 10px;
+    font-size: 15px;
   }
   
   /* .active {
     font-weight: bold;
   } */
   
-  /* @media screen and (min-width: 800px) {
-    nav {
+@media screen and (min-width: 800px) {
+   /* nav {
       height: 80px;
       flex-direction: row;
     }
@@ -223,13 +227,12 @@
       flex-direction: row;
     }
    */
-  
-  
     .skills ul{
       font-size: 20px;
       display: flex;
-      background-color: #333;
-      color: #fff;
+      background-color: #fff;
+      color:#000000;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
       border-radius: 10px;
       width: auto;
     }
@@ -237,3 +240,8 @@
       list-style: none;
       margin: 30px;
     }
+    .p-contact {
+      padding: 10px;
+      font-size: 20px;
+    }
+  }
